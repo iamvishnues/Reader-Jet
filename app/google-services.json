@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "223842159313",
+    "project_id": "readerapp-2bf87",
+    "storage_bucket": "readerapp-2bf87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223842159313:android:57af8a2851602a3e6d93f0",
+        "android_client_info": {
+          "package_name": "com.jetpack.reader.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223842159313-669cbagn910ld3ddjgjp8m9p6bqbuvoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKyx-HyQln_XWCiqCWEwb5tvLNif-hsx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223842159313-669cbagn910ld3ddjgjp8m9p6bqbuvoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
