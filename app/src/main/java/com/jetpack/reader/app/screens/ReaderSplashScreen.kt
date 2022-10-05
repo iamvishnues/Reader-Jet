@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import coil.size.Size
+import com.google.firebase.auth.FirebaseAuth
 import com.jetpack.reader.app.R
 import com.jetpack.reader.app.components.ReaderLogo
 import com.jetpack.reader.app.navigation.ReaderScreens
@@ -38,7 +39,13 @@ fun ReaderSplashScreen(navController: NavController) {
             }
         ))
         delay(2000L)
+//        if(FirebaseAuth.getInstance().currentUser?.email.isNullOrEmpty()){
+//            navController.navigate(ReaderScreens.LoginScreen.name)
+//        }else{
+//            navController.navigate(ReaderScreens.ReaderHomeScreen.name)
+//        }
         navController.navigate(ReaderScreens.LoginScreen.name)
+
 
     }
     Surface(modifier = Modifier
